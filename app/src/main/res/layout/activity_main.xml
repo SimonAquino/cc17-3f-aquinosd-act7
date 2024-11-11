@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/wright_park">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="455dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="-1dp"
+        app:srcCompat="@drawable/baguio_logo" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/btn_restaurants"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_marginBottom="10dp"
+            android:text="Restaurants"
+            android:backgroundTint="#80BEC9B2"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/restaurant"
+            android:drawablePadding="16dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_cafes"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_marginBottom="10dp"
+            android:text="Cafes"
+            android:backgroundTint="#80BEC9B2"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/cafe"
+            android:drawablePadding="16dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_tourist_spots"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_marginBottom="10dp"
+            android:text="Tourist Spots"
+            android:backgroundTint="#80BEC9B2"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/touristspot"
+            android:drawablePadding="16dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_shopping_centers"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_marginBottom="10dp"
+            android:text="Shopping Centers"
+            android:backgroundTint="#80BEC9B2"
+            android:textSize="29dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/shoppingcenter"
+            android:drawablePadding="16dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
