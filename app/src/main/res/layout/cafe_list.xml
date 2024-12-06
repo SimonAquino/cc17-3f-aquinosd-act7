@@ -5,10 +5,10 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@drawable/restaurant_bg">
+    android:background="@drawable/cafe_bg">
 
     <ImageView
-        android:id="@+id/btn_restaurant"
+        android:id="@+id/btn_cafe"
         android:layout_width="455dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -18,8 +18,8 @@
         android:layout_marginTop="-60dp"
         android:layout_marginEnd="-1dp"
         android:contentDescription="TODO"
-        app:srcCompat="@drawable/restaurant_logo"
-        tools:ignore="ContentDescription,HardcodedText" />
+        app:srcCompat="@drawable/cafe_logo"
+        tools:ignore="ContentDescription,HardcodedText,InvalidId,ImageContrastCheck,VisualLintBounds" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,32 +28,32 @@
         android:layout_marginTop="260dp">
 
         <Button
-            android:id="@+id/btn_grumpyjoe"
+            android:id="@+id/btn_seollem"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_marginBottom="10dp"
             android:backgroundTint="#00FFFFFF"
-            android:drawableLeft="@drawable/grumpy_joe_logo"
-            tools:ignore="RtlHardcoded" />
+            android:drawableLeft="@drawable/seollem_cafe_logo"
+            tools:ignore="RtlHardcoded,SpeakableTextPresentCheck" />
 
         <Button
-            android:id="@+id/btn_pizzavolante"
+            android:id="@+id/btn_foam"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            android:layout_marginBottom="10dp"
-            android:backgroundTint="#00FFFFFF"
             android:layout_gravity="right"
-            android:drawableLeft="@drawable/volante_logo"
-            tools:ignore="RtlHardcoded" />
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#00FFFFFF"
+            android:drawableLeft="@drawable/foam_coffee_logo"
+            tools:ignore="RtlHardcoded,SpeakableTextPresentCheck" />
 
         <Button
-            android:id="@+id/btn_vizcos"
+            android:id="@+id/btn_cafebyruin"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_marginBottom="10dp"
             android:backgroundTint="#00FFFFFF"
-            android:drawableLeft="@drawable/vizco_s_logo"
-            tools:ignore="RtlHardcoded" />
+            android:drawableLeft="@drawable/cafe_by_the_ruin_logo"
+            tools:ignore="RtlHardcoded,SpeakableTextPresentCheck,VisualLintBounds" />
 
 
     </LinearLayout>
